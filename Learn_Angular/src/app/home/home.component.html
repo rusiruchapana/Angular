@@ -1,1 +1,7 @@
 <p>home works!</p>
+<app-greeting [message] = "title()"></app-greeting>
+<input
+    type="text"
+    placeholder="Type something..."
+    (keydown)="onKeyPressed($event)"
+/>
